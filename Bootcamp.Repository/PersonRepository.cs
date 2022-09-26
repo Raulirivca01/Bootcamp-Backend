@@ -31,7 +31,38 @@ namespace Bootcamp.Repository
                 result = await connection.ExecuteAsync("[dbo].[Usp_Ins_Person]",parameters, commandType: System.Data.CommandType.StoredProcedure);
             }
             return result;
-        } 
+        }
 
+        
+
+        public async Task<int> Update(Person person)
+        {
+            int result;
+            var parameters = new DynamicParameters();
+            parameters.Add("Id", person.Id);
+            parameters.Add("@Name", person.Name);
+            parameters.Add("@LastName", person.LastName);
+            parameters.Add("@DocumentTypeId", person.DocumentTypeId);
+            parameters.Add("@DocumentNumber", person.DocumentNumber);
+
+            using (var connection = new SqlConnection(_connectionString))
+            {
+                result = await connection.ExecuteAsync("[dbo].[Usp_Upt_Person]", parameters, commandType: System.Data.CommandType.StoredProcedure);
+            }
+            return result;
+        }
+
+        public async Task<int> Delete(int id)
+        {
+            int result;
+            var parameters = new DynamicParameters();
+            parameters.Add("@Id", id);
+
+            using (var connection = new SqlConnection(_connectionString))
+            {
+                result = await connection.ExecuteAsync("[dbo].[Usp_Del_Person]", parameters, commandType: System.Data.CommandType.StoredProcedure);
+            }
+            return result;
+        }
     }
 }

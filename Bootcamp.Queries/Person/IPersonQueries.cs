@@ -9,7 +9,8 @@ namespace Bootcamp.Queries.Person
 {
     public interface IPersonQueries
     {
-        Task<IEnumerable<PersonViewModel>> GetAll();
+        Task<IEnumerable<PersonViewModel>> ReadAll();
+        Task<IEnumerable<PersonViewModel>> ReadById(int id);
 
     }
 }

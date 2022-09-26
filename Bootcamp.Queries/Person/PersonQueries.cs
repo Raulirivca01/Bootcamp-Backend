@@ -17,12 +17,25 @@ namespace Bootcamp.Queries.Person
         {
             _connectionString = configuration["ConnectionStrings:SQL"];
         }
-        public async Task<IEnumerable<PersonViewModel>> GetAll()
+        public async Task<IEnumerable<PersonViewModel>> ReadAll()
         {
             IEnumerable<PersonViewModel> result = new List<PersonViewModel>();
             using (var connection = new SqlConnection(_connectionString))
             {
                 result = await connection.QueryAsync<PersonViewModel>("[dbo].[Usp_Sel_Person]", commandType: System.Data.CommandType.StoredProcedure);
+            }
+            return result;
+        }
+
+        public async Task<IEnumerable<PersonViewModel>> ReadById(int id)
+        {
+            IEnumerable<PersonViewModel> result = new List<PersonViewModel>();
+            var parameters = new DynamicParameters();
+            parameters.Add("@Id", id);
+
+            using (var connection = new SqlConnection(_connectionString))
+            {
+                result = await connection.QueryAsync<PersonViewModel>("[dbo].[Usp_SelById_Person]", parameters, commandType: System.Data.CommandType.StoredProcedure);
             }
             return result;
         }
