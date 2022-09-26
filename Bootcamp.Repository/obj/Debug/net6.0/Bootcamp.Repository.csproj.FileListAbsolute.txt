@@ -1,0 +1,15 @@
+D:\Raul Practicas\Bootcamp\Backend\Bootcamp-Backend\Bootcamp.Repository\obj\Debug\net6.0\Bootcamp.Repository.csproj.AssemblyReference.cache
+D:\Raul Practicas\Bootcamp\Backend\Bootcamp-Backend\Bootcamp.Repository\obj\Debug\net6.0\Bootcamp.Repository.GeneratedMSBuildEditorConfig.editorconfig
+D:\Raul Practicas\Bootcamp\Backend\Bootcamp-Backend\Bootcamp.Repository\obj\Debug\net6.0\Bootcamp.Repository.AssemblyInfoInputs.cache
+D:\Raul Practicas\Bootcamp\Backend\Bootcamp-Backend\Bootcamp.Repository\obj\Debug\net6.0\Bootcamp.Repository.AssemblyInfo.cs
+D:\Raul Practicas\Bootcamp\Backend\Bootcamp-Backend\Bootcamp.Repository\obj\Debug\net6.0\Bootcamp.Repository.csproj.CoreCompileInputs.cache
+D:\Raul Practicas\Bootcamp\Backend\Bootcamp-Backend\Bootcamp.Repository\bin\Debug\net6.0\Bootcamp.Repository.deps.json
+D:\Raul Practicas\Bootcamp\Backend\Bootcamp-Backend\Bootcamp.Repository\bin\Debug\net6.0\Bootcamp.Repository.dll
+D:\Raul Practicas\Bootcamp\Backend\Bootcamp-Backend\Bootcamp.Repository\bin\Debug\net6.0\Bootcamp.Repository.pdb
+D:\Raul Practicas\Bootcamp\Backend\Bootcamp-Backend\Bootcamp.Repository\bin\Debug\net6.0\Bootcamp.Model.dll
+D:\Raul Practicas\Bootcamp\Backend\Bootcamp-Backend\Bootcamp.Repository\bin\Debug\net6.0\Bootcamp.Model.pdb
+D:\Raul Practicas\Bootcamp\Backend\Bootcamp-Backend\Bootcamp.Repository\obj\Debug\net6.0\Bootcamp.Repository.csproj.CopyComplete
+D:\Raul Practicas\Bootcamp\Backend\Bootcamp-Backend\Bootcamp.Repository\obj\Debug\net6.0\Bootcamp.Repository.dll
+D:\Raul Practicas\Bootcamp\Backend\Bootcamp-Backend\Bootcamp.Repository\obj\Debug\net6.0\refint\Bootcamp.Repository.dll
+D:\Raul Practicas\Bootcamp\Backend\Bootcamp-Backend\Bootcamp.Repository\obj\Debug\net6.0\Bootcamp.Repository.pdb
+D:\Raul Practicas\Bootcamp\Backend\Bootcamp-Backend\Bootcamp.Repository\obj\Debug\net6.0\ref\Bootcamp.Repository.dll
